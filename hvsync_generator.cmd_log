@@ -1,0 +1,8 @@
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.v} -lang verilog -prj VGA_Graphic_Card -o hvsync_generator.spl -module hvsync_generator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w hvsync_generator.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.v} -lang verilog -prj VGA_Graphic_Card -o hvsync_generator.spl -module hvsync_generator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w hvsync_generator.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.v} -lang verilog -prj VGA_Graphic_Card -o hvsync_generator.spl -module hvsync_generator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w hvsync_generator.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.v} -lang verilog -prj VGA_Graphic_Card -o hvsync_generator.spl -module hvsync_generator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w hvsync_generator.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.sym} 

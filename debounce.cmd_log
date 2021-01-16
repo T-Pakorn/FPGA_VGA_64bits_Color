@@ -1,0 +1,4 @@
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog debounce_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/debounce.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym debounce {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/debounce.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/debounce.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym debounce {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/debounce.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/debounce.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog debounce_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/debounce.sch} 

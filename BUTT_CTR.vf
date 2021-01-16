@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : BUTT_CTR.vf
+// /___/   /\     Timestamp : 12/15/2020 13:59:03
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir" -intstyle ise -family spartan6 -verilog "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/BUTT_CTR.vf" -w "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/BUTT_CTR.sch"
+//Design Name: BUTT_CTR
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FTC_HXILINX_BUTT_CTR(Q, C, CLR, T);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              T;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+  
+   
+ 
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else if(T)
+          Q <= !Q;
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module BUTT_CTR(PAUSE_BUTT, 
+                RESET_BUTT, 
+                PAUSE_TIME, 
+                RESET_TIME);
+
+    input PAUSE_BUTT;
+    input RESET_BUTT;
+   output PAUSE_TIME;
+   output RESET_TIME;
+   
+   wire XLXN_1;
+   wire XLXN_3;
+   wire PAUSE_TIME_DUMMY;
+   
+   assign PAUSE_TIME = PAUSE_TIME_DUMMY;
+   (* HU_SET = "XLXI_1_15" *) 
+   FTC_HXILINX_BUTT_CTR  XLXI_1 (.C(PAUSE_BUTT), 
+                                .CLR(XLXN_3), 
+                                .T(XLXN_1), 
+                                .Q(PAUSE_TIME_DUMMY));
+   VCC  XLXI_2 (.P(XLXN_1));
+   GND  XLXI_4 (.G(XLXN_3));
+   AND2B1  XLXI_5 (.I0(PAUSE_TIME_DUMMY), 
+                  .I1(RESET_BUTT), 
+                  .O(RESET_TIME));
+endmodule

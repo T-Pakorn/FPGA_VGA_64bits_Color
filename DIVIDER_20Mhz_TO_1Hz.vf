@@ -1,0 +1,186 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : DIVIDER_20Mhz_TO_1Hz.vf
+// /___/   /\     Timestamp : 12/15/2020 13:59:04
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir" -intstyle ise -family spartan6 -verilog "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/DIVIDER_20Mhz_TO_1Hz.vf" -w "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/DIVIDER_20Mhz_TO_1Hz.sch"
+//Design Name: DIVIDER_20Mhz_TO_1Hz
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FTC_HXILINX_DIVIDER_20Mhz_TO_1Hz(Q, C, CLR, T);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              T;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+  
+   
+ 
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else if(T)
+          Q <= !Q;
+     end
+   
+endmodule
+`timescale 100 ps / 10 ps
+
+module CD4CE_HXILINX_DIVIDER_20Mhz_TO_1Hz(CEO, Q0, Q1, Q2, Q3, TC, C, CE, CLR);
+   
+   parameter TERMINAL_COUNT = 4'b1001;
+   
+   output             CEO;
+   output             Q0;
+   output             Q1;
+   output             Q2;
+   output             Q3;
+   output             TC;
+
+   input 	      C;	
+   input 	      CE;	
+   input 	      CLR;	
+   
+   reg                Q0;
+   reg                Q1;
+   reg                Q2;
+   reg                Q3;
+   
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  {Q3, Q2, Q1, Q0} <= 4'b0000;
+
+	else if (CE)
+          begin
+             if ({Q3,Q2,Q1,Q0} == 4'b1001)
+               {Q3,Q2,Q1,Q0} <= 4'b0000;
+             else if({Q3,Q2,Q1,Q0} == 4'b1011)
+               {Q3,Q2,Q1,Q0} <= 4'b0110;
+             else if({Q3,Q2,Q1,Q0} == 4'b1101)
+               {Q3,Q2,Q1,Q0} <= 4'b0100;
+             else if({Q3,Q2,Q1,Q0} == 4'b1111)
+               {Q3,Q2,Q1,Q0} <= 4'b0010;
+            
+             else
+	      {Q3, Q2, Q1,Q0} <= {Q3, Q2, Q1,Q0} + 1;
+          end
+     end
+   
+   assign CEO = TC & CE;
+   assign TC = CLR ? 1'b0 : ({Q3, Q2, Q1, Q0} == TERMINAL_COUNT);
+   
+endmodule
+`timescale 1ns / 1ps
+
+module TEN_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz(CLK_INPUT, 
+                                          CLR_DATA, 
+                                          CLK_OUT);
+
+    input CLK_INPUT;
+    input CLR_DATA;
+   output CLK_OUT;
+   
+   wire XLXN_1;
+   
+   (* HU_SET = "XLXI_1_24" *) 
+   CD4CE_HXILINX_DIVIDER_20Mhz_TO_1Hz  XLXI_1 (.C(CLK_INPUT), 
+                                              .CE(XLXN_1), 
+                                              .CLR(CLR_DATA), 
+                                              .CEO(), 
+                                              .Q0(), 
+                                              .Q1(), 
+                                              .Q2(), 
+                                              .Q3(), 
+                                              .TC(CLK_OUT));
+   VCC  XLXI_2 (.P(XLXN_1));
+endmodule
+`timescale 1ns / 1ps
+
+module TWO_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz(CLK_INPUT, 
+                                          CLR_DATA, 
+                                          CLK_OUT);
+
+    input CLK_INPUT;
+    input CLR_DATA;
+   output CLK_OUT;
+   
+   wire XLXN_2;
+   
+   (* HU_SET = "XLXI_1_25" *) 
+   FTC_HXILINX_DIVIDER_20Mhz_TO_1Hz  XLXI_1 (.C(CLK_INPUT), 
+                                            .CLR(CLR_DATA), 
+                                            .T(XLXN_2), 
+                                            .Q(CLK_OUT));
+   VCC  XLXI_2 (.P(XLXN_2));
+endmodule
+`timescale 1ns / 1ps
+
+module DIVIDER_20Mhz_TO_1Hz(CLK_INPUT, 
+                            CLR_DATA, 
+                            PAUSE_BUTT, 
+                            CLK_OUT);
+
+    input CLK_INPUT;
+    input CLR_DATA;
+    input PAUSE_BUTT;
+   output CLK_OUT;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_59;
+   wire XLXN_61;
+   wire XLXN_62;
+   
+   TWO_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz  XLXI_1 (.CLK_INPUT(XLXN_61), 
+                                              .CLR_DATA(CLR_DATA), 
+                                              .CLK_OUT(CLK_OUT));
+   TEN_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz  XLXI_2 (.CLK_INPUT(XLXN_1), 
+                                              .CLR_DATA(CLR_DATA), 
+                                              .CLK_OUT(XLXN_2));
+   TEN_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz  XLXI_3 (.CLK_INPUT(XLXN_2), 
+                                              .CLR_DATA(CLR_DATA), 
+                                              .CLK_OUT(XLXN_3));
+   TEN_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz  XLXI_6 (.CLK_INPUT(XLXN_3), 
+                                              .CLR_DATA(CLR_DATA), 
+                                              .CLK_OUT(XLXN_4));
+   TEN_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz  XLXI_7 (.CLK_INPUT(XLXN_4), 
+                                              .CLR_DATA(CLR_DATA), 
+                                              .CLK_OUT(XLXN_5));
+   TEN_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz  XLXI_12 (.CLK_INPUT(XLXN_5), 
+                                               .CLR_DATA(CLR_DATA), 
+                                               .CLK_OUT(XLXN_6));
+   TEN_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz  XLXI_24 (.CLK_INPUT(XLXN_6), 
+                                               .CLR_DATA(CLR_DATA), 
+                                               .CLK_OUT(XLXN_61));
+   AND2  XLXI_27 (.I0(PAUSE_BUTT), 
+                 .I1(CLK_INPUT), 
+                 .O(XLXN_62));
+   INV  XLXI_28 (.I(XLXN_62), 
+                .O(XLXN_59));
+   TEN_DIV_MUSER_DIVIDER_20Mhz_TO_1Hz  XLXI_31 (.CLK_INPUT(XLXN_59), 
+                                               .CLR_DATA(CLR_DATA), 
+                                               .CLK_OUT(XLXN_1));
+endmodule

@@ -1,0 +1,91 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopLevel.ucf -p
+xc6slx9-tqg144-3 TopLevel.ngc TopLevel.ngd
+
+Reading NGO file "C:/Users/Tree/Desktop/Digital
+Lab/VGA_Graphic_Card/TopLevel.ngc" ...
+Loading design module "ipcore_dir/city0.ngc"...
+Loading design module "ipcore_dir/city1.ngc"...
+Loading design module "ipcore_dir/city2.ngc"...
+Loading design module "ipcore_dir/city3.ngc"...
+Loading design module "ipcore_dir/city4.ngc"...
+Loading design module "ipcore_dir/city5.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "TopLevel.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_6/dina<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_6/dina<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_6/dina<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_6/dina<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_6/dina<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_6/dina<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_6/dina<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_6/dina<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_15/dina<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_15/dina<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_15/dina<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_15/dina<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_15/dina<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_15/dina<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_15/dina<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_15/dina<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_16/dina<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_16/dina<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_16/dina<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_16/dina<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_16/dina<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_16/dina<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_16/dina<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_16/dina<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_17/dina<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_17/dina<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_17/dina<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_17/dina<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_17/dina<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_17/dina<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_17/dina<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_17/dina<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_18/dina<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_18/dina<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_18/dina<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_18/dina<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_18/dina<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_18/dina<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_18/dina<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_18/dina<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_19/dina<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_19/dina<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_19/dina<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_19/dina<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_19/dina<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_19/dina<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_19/dina<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_209/XLXI_19/dina<0>' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  48
+
+Total memory usage is 4421484 kilobytes
+
+Writing NGD file "TopLevel.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "TopLevel.bld"...

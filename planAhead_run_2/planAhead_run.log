@@ -1,0 +1,199 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/pa.fromHdl.tcl}
+# create_project -name VGA_Graphic_Card -dir "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/planAhead_run_2" -part xc6slx9tqg144-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "TopLevel.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TopLevel.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/city0.ngc}]
+# add_files [list {ipcore_dir/city1.ngc}]
+# add_files [list {ipcore_dir/city2.ngc}]
+# add_files [list {ipcore_dir/city3.ngc}]
+# add_files [list {ipcore_dir/city4.ngc}]
+# add_files [list {ipcore_dir/city5.ngc}]
+# set hdlfile [add_files [list {TWO_DIV.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TEN_DIV.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/city5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/city4.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/city3.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/city2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/city1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/city0.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {hvsync_generator.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {VGADemo.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {up_down_counter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Image.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DIVIDER_20Mhz_TO_1Hz.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BUTT_CTR.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TopLevel.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top TopLevel $srcset
+# add_files [list {TopLevel.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/city0.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/city1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/city2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/city3.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/city4.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/city5.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/city6.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/city7.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/finch.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/hvsync_generator.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/up_down_counter.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city5.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city4.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city3.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city2.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city1.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city0.v" into library work
+Analyzing Verilog file "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TopLevel.vf" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design city0.ngc ...
+WARNING:NetListWriters:298 - No output is written to city0.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file city0.edif ...
+ngc2edif: Total memory usage is 4314604 kilobytes
+
+Reading core file 'C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city0.ngc' for (cell view 'city0', library 'work', file 'city0.v')
+Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city0.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city0.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design city1.ngc ...
+WARNING:NetListWriters:298 - No output is written to city1.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file city1.edif ...
+ngc2edif: Total memory usage is 4314604 kilobytes
+
+Reading core file 'C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city1.ngc' for (cell view 'city1', library 'work', file 'city1.v')
+Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city1.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city1.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design city2.ngc ...
+WARNING:NetListWriters:298 - No output is written to city2.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file city2.edif ...
+ngc2edif: Total memory usage is 4314604 kilobytes
+
+Reading core file 'C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city2.ngc' for (cell view 'city2', library 'work', file 'city2.v')
+Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city2.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city2.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design city3.ngc ...
+WARNING:NetListWriters:298 - No output is written to city3.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file city3.edif ...
+ngc2edif: Total memory usage is 4314604 kilobytes
+
+Reading core file 'C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city3.ngc' for (cell view 'city3', library 'work', file 'city3.v')
+Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city3.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city3.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design city4.ngc ...
+WARNING:NetListWriters:298 - No output is written to city4.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file city4.edif ...
+ngc2edif: Total memory usage is 4314604 kilobytes
+
+Reading core file 'C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city4.ngc' for (cell view 'city4', library 'work', file 'city4.v')
+Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city4.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city4.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design city5.ngc ...
+WARNING:NetListWriters:298 - No output is written to city5.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file city5.edif ...
+ngc2edif: Total memory usage is 4314604 kilobytes
+
+Reading core file 'C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir/city5.ngc' for (cell view 'city5', library 'work', file 'city5.v')
+Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city5.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-7856-DESKTOP-547TFGT/ngc2edif/city5.edif]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TopLevel.ucf]
+Finished Parsing UCF File [C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TopLevel.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: a6043bab
+open_rtl_design: Time (s): elapsed = 00:00:17 . Memory (MB): peak = 661.254 ; gain = 201.961
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P112 [get_ports PAUSE_BUT]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 15 21:06:54 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

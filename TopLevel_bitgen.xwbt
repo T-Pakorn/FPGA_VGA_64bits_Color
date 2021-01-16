@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.ncd
+OUTFILE=C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card
+LICENSE=WebPack
+USER_INFO=__0_0_0

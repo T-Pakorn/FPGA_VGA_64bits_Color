@@ -1,0 +1,243 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Image.vf
+// /___/   /\     Timestamp : 12/15/2020 13:59:04
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir" -intstyle ise -family spartan6 -verilog "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.vf" -w "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch"
+//Design Name: Image
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module M8_1E_HXILINX_Image (O, D0, D1, D2, D3, D4, D5, D6, D7, E, S0, S1, S2);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  D2;
+   input  D3;
+   input  D4;
+   input  D5;
+   input  D6;
+   input  D7;
+   input  E;
+   input  S0;
+   input  S1;
+   input  S2;
+
+   reg O;
+
+   always @ ( D0 or D1 or D2 or D3 or D4 or D5 or D6 or D7 or E or S0 or S1 or S2)
+   begin
+      if(!E)
+      O <= 1'b0;
+      else 
+      begin
+        case({S2,S1,S0})
+        3'b000 : O <= D0;
+        3'b001 : O <= D1;
+        3'b010 : O <= D2;
+        3'b011 : O <= D3;
+        3'b100 : O <= D4;
+        3'b101 : O <= D5;
+        3'b110 : O <= D6;
+        3'b111 : O <= D7;
+        endcase
+      end
+   end
+    
+endmodule
+`timescale 1ns / 1ps
+
+module Image(ADDRESS, 
+             CLK_IN, 
+             ENA, 
+             SEL_3BIT, 
+             OUT_BIN);
+
+    input [13:0] ADDRESS;
+    input CLK_IN;
+    input ENA;
+    input [2:0] SEL_3BIT;
+   output [7:0] OUT_BIN;
+   
+   wire [0:0] XLXN_11;
+   wire [7:0] XLXN_17;
+   wire [7:0] XLXN_97;
+   wire [7:0] XLXN_101;
+   wire [7:0] XLXN_105;
+   wire [7:0] XLXN_106;
+   wire [7:0] XLXN_107;
+   wire [7:0] XLXN_121;
+   
+   city0  XLXI_6 (.addra(ADDRESS[13:0]), 
+                 .clka(CLK_IN), 
+                 .dina(), 
+                 .ena(ENA), 
+                 .wea(XLXN_11[0]), 
+                 .douta(XLXN_17[7:0]));
+   GND  XLXI_7 (.G(XLXN_11[0]));
+   (* HU_SET = "XLXI_13_0_23" *) 
+   M8_1E_HXILINX_Image  XLXI_13_0 (.D0(XLXN_17[0]), 
+                                  .D1(XLXN_101[0]), 
+                                  .D2(XLXN_105[0]), 
+                                  .D3(XLXN_106[0]), 
+                                  .D4(XLXN_107[0]), 
+                                  .D5(XLXN_97[0]), 
+                                  .D6(), 
+                                  .D7(), 
+                                  .E(XLXN_121[0]), 
+                                  .S0(SEL_3BIT[0]), 
+                                  .S1(SEL_3BIT[1]), 
+                                  .S2(SEL_3BIT[2]), 
+                                  .O(OUT_BIN[0]));
+   (* HU_SET = "XLXI_13_1_22" *) 
+   M8_1E_HXILINX_Image  XLXI_13_1 (.D0(XLXN_17[1]), 
+                                  .D1(XLXN_101[1]), 
+                                  .D2(XLXN_105[1]), 
+                                  .D3(XLXN_106[1]), 
+                                  .D4(XLXN_107[1]), 
+                                  .D5(XLXN_97[1]), 
+                                  .D6(), 
+                                  .D7(), 
+                                  .E(XLXN_121[1]), 
+                                  .S0(SEL_3BIT[0]), 
+                                  .S1(SEL_3BIT[1]), 
+                                  .S2(SEL_3BIT[2]), 
+                                  .O(OUT_BIN[1]));
+   (* HU_SET = "XLXI_13_2_21" *) 
+   M8_1E_HXILINX_Image  XLXI_13_2 (.D0(XLXN_17[2]), 
+                                  .D1(XLXN_101[2]), 
+                                  .D2(XLXN_105[2]), 
+                                  .D3(XLXN_106[2]), 
+                                  .D4(XLXN_107[2]), 
+                                  .D5(XLXN_97[2]), 
+                                  .D6(), 
+                                  .D7(), 
+                                  .E(XLXN_121[2]), 
+                                  .S0(SEL_3BIT[0]), 
+                                  .S1(SEL_3BIT[1]), 
+                                  .S2(SEL_3BIT[2]), 
+                                  .O(OUT_BIN[2]));
+   (* HU_SET = "XLXI_13_3_20" *) 
+   M8_1E_HXILINX_Image  XLXI_13_3 (.D0(XLXN_17[3]), 
+                                  .D1(XLXN_101[3]), 
+                                  .D2(XLXN_105[3]), 
+                                  .D3(XLXN_106[3]), 
+                                  .D4(XLXN_107[3]), 
+                                  .D5(XLXN_97[3]), 
+                                  .D6(), 
+                                  .D7(), 
+                                  .E(XLXN_121[3]), 
+                                  .S0(SEL_3BIT[0]), 
+                                  .S1(SEL_3BIT[1]), 
+                                  .S2(SEL_3BIT[2]), 
+                                  .O(OUT_BIN[3]));
+   (* HU_SET = "XLXI_13_4_19" *) 
+   M8_1E_HXILINX_Image  XLXI_13_4 (.D0(XLXN_17[4]), 
+                                  .D1(XLXN_101[4]), 
+                                  .D2(XLXN_105[4]), 
+                                  .D3(XLXN_106[4]), 
+                                  .D4(XLXN_107[4]), 
+                                  .D5(XLXN_97[4]), 
+                                  .D6(), 
+                                  .D7(), 
+                                  .E(XLXN_121[4]), 
+                                  .S0(SEL_3BIT[0]), 
+                                  .S1(SEL_3BIT[1]), 
+                                  .S2(SEL_3BIT[2]), 
+                                  .O(OUT_BIN[4]));
+   (* HU_SET = "XLXI_13_5_18" *) 
+   M8_1E_HXILINX_Image  XLXI_13_5 (.D0(XLXN_17[5]), 
+                                  .D1(XLXN_101[5]), 
+                                  .D2(XLXN_105[5]), 
+                                  .D3(XLXN_106[5]), 
+                                  .D4(XLXN_107[5]), 
+                                  .D5(XLXN_97[5]), 
+                                  .D6(), 
+                                  .D7(), 
+                                  .E(XLXN_121[5]), 
+                                  .S0(SEL_3BIT[0]), 
+                                  .S1(SEL_3BIT[1]), 
+                                  .S2(SEL_3BIT[2]), 
+                                  .O(OUT_BIN[5]));
+   (* HU_SET = "XLXI_13_6_17" *) 
+   M8_1E_HXILINX_Image  XLXI_13_6 (.D0(XLXN_17[6]), 
+                                  .D1(XLXN_101[6]), 
+                                  .D2(XLXN_105[6]), 
+                                  .D3(XLXN_106[6]), 
+                                  .D4(XLXN_107[6]), 
+                                  .D5(XLXN_97[6]), 
+                                  .D6(), 
+                                  .D7(), 
+                                  .E(XLXN_121[6]), 
+                                  .S0(SEL_3BIT[0]), 
+                                  .S1(SEL_3BIT[1]), 
+                                  .S2(SEL_3BIT[2]), 
+                                  .O(OUT_BIN[6]));
+   (* HU_SET = "XLXI_13_7_16" *) 
+   M8_1E_HXILINX_Image  XLXI_13_7 (.D0(XLXN_17[7]), 
+                                  .D1(XLXN_101[7]), 
+                                  .D2(XLXN_105[7]), 
+                                  .D3(XLXN_106[7]), 
+                                  .D4(XLXN_107[7]), 
+                                  .D5(XLXN_97[7]), 
+                                  .D6(), 
+                                  .D7(), 
+                                  .E(XLXN_121[7]), 
+                                  .S0(SEL_3BIT[0]), 
+                                  .S1(SEL_3BIT[1]), 
+                                  .S2(SEL_3BIT[2]), 
+                                  .O(OUT_BIN[7]));
+   city1  XLXI_15 (.addra(ADDRESS[13:0]), 
+                  .clka(CLK_IN), 
+                  .dina(), 
+                  .ena(ENA), 
+                  .wea(XLXN_11[0]), 
+                  .douta(XLXN_101[7:0]));
+   city2  XLXI_16 (.addra(ADDRESS[13:0]), 
+                  .clka(CLK_IN), 
+                  .dina(), 
+                  .ena(ENA), 
+                  .wea(XLXN_11[0]), 
+                  .douta(XLXN_105[7:0]));
+   city3  XLXI_17 (.addra(ADDRESS[13:0]), 
+                  .clka(CLK_IN), 
+                  .dina(), 
+                  .ena(ENA), 
+                  .wea(XLXN_11[0]), 
+                  .douta(XLXN_106[7:0]));
+   city4  XLXI_18 (.addra(ADDRESS[13:0]), 
+                  .clka(CLK_IN), 
+                  .dina(), 
+                  .ena(ENA), 
+                  .wea(XLXN_11[0]), 
+                  .douta(XLXN_107[7:0]));
+   city5  XLXI_19 (.addra(ADDRESS[13:0]), 
+                  .clka(CLK_IN), 
+                  .dina(), 
+                  .ena(ENA), 
+                  .wea(XLXN_11[0]), 
+                  .douta(XLXN_97[7:0]));
+   VCC  XLXI_23_0 (.P(XLXN_121[0]));
+   VCC  XLXI_23_1 (.P(XLXN_121[1]));
+   VCC  XLXI_23_2 (.P(XLXN_121[2]));
+   VCC  XLXI_23_3 (.P(XLXN_121[3]));
+   VCC  XLXI_23_4 (.P(XLXN_121[4]));
+   VCC  XLXI_23_5 (.P(XLXN_121[5]));
+   VCC  XLXI_23_6 (.P(XLXN_121[6]));
+   VCC  XLXI_23_7 (.P(XLXN_121[7]));
+endmodule

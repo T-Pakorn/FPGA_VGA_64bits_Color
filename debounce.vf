@@ -1,0 +1,53 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : debounce.vf
+// /___/   /\     Timestamp : 12/15/2020 13:59:04
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir" -intstyle ise -family spartan6 -verilog "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/debounce.vf" -w "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/debounce.sch"
+//Design Name: debounce
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module debounce(CLK, 
+                SW_IN, 
+                OUT_ANS);
+
+    input CLK;
+    input SW_IN;
+   output OUT_ANS;
+   
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_8;
+   wire XLXN_9;
+   
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(CLK), 
+              .D(SW_IN), 
+              .Q(XLXN_5));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(CLK), 
+              .D(XLXN_5), 
+              .Q(XLXN_6));
+   FD #( .INIT(1'b0) ) XLXI_3 (.C(CLK), 
+              .D(XLXN_6), 
+              .Q(XLXN_8));
+   FD #( .INIT(1'b0) ) XLXI_6 (.C(CLK), 
+              .D(XLXN_8), 
+              .Q(XLXN_9));
+   AND4  XLXI_7 (.I0(XLXN_9), 
+                .I1(XLXN_8), 
+                .I2(XLXN_6), 
+                .I3(XLXN_5), 
+                .O(OUT_ANS));
+endmodule

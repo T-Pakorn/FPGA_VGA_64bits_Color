@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan6 -refsym Horizontal_Sync {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Horizontal_Sync.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Horizontal_Sync.sym} 
+sch2sym -intstyle ise -family spartan6 -refsym Horizontal_Sync {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Horizontal_Sync.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Horizontal_Sync.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Horizontal_Sync {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Horizontal_Sync.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Horizontal_Sync.sym} 
+sch2hdl -intstyle ise -family spartan6 -verilog Horizontal_Sync_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Horizontal_Sync.sch} 

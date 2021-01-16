@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym TWO_DIV {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TWO_DIV.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TWO_DIV.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog TWO_DIV_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TWO_DIV.sch} 

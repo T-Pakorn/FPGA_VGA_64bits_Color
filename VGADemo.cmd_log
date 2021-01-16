@@ -1,0 +1,18 @@
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.v} -lang verilog -prj VGA_Graphic_Card -o VGADemo.spl -module VGADemo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w VGADemo.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/VGADemo.sym} 

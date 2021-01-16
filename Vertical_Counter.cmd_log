@@ -1,0 +1,46 @@
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.v} -lang verilog -prj VGA_Graphic_Card -o Vertical_Counter.spl -module Vertical_Counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w Vertical_Counter.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Vertical_Counter.sym} 

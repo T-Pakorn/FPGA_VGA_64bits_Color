@@ -1,0 +1,19 @@
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Image {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sym} 
+sch2hdl -sympath {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir} -intstyle ise -family spartan6 -verilog Image_drc.vf -w {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/Image.sch} 

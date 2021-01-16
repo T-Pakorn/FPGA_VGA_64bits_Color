@@ -1,0 +1,7 @@
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ImageReg.v} -lang verilog -prj VGA_Graphic_Card -o ImageReg.spl -module ImageReg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ImageReg.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ImageReg.sym} 
+vhdtdtfi -lang verilog -prj VGA_Graphic_Card -o "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ImageReg.tfi" -lib work "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card//ImageReg.v" -module ImageReg -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ImageReg.v} -lang verilog -prj VGA_Graphic_Card -o ImageReg.spl -module ImageReg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ImageReg.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ImageReg.sym} 
+vhdtdtfi -lib work {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ImageReg.v} -lang verilog -prj VGA_Graphic_Card -o ImageReg.spl -module ImageReg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ImageReg.spl {C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ImageReg.sym} 

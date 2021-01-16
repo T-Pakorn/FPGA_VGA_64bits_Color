@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/updowncounter_tb_isim_beh.exe" -prj "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/updowncounter_tb_beh.prj" "work.updowncounter_tb" "work.glbl" 

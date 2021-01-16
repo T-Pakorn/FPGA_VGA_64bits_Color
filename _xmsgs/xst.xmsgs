@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\hvsync_generator.v" Line 38: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\hvsync_generator.v" Line 47: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\VGADemo.v" Line 30: Port <arg fmt="%s" index="1">CounterY</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\VGADemo.v" Line 34: Assignment to <arg fmt="%s" index="1">CounterX</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 126: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\ipcore_dir\city0.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">city0</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\ipcore_dir\city1.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">city1</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\ipcore_dir\city2.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">city2</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\ipcore_dir\city3.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">city3</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\ipcore_dir\city4.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">city4</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\ipcore_dir\city5.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">city5</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 157: Input port <arg fmt="%s" index="1">dina[7]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 165: Input port <arg fmt="%s" index="1">D6</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 179: Input port <arg fmt="%s" index="1">D6</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 193: Input port <arg fmt="%s" index="1">D6</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 207: Input port <arg fmt="%s" index="1">D6</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 221: Input port <arg fmt="%s" index="1">D6</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 235: Input port <arg fmt="%s" index="1">D6</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 249: Input port <arg fmt="%s" index="1">D6</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 263: Input port <arg fmt="%s" index="1">D6</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 276: Input port <arg fmt="%s" index="1">dina[7]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 282: Input port <arg fmt="%s" index="1">dina[7]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 288: Input port <arg fmt="%s" index="1">dina[7]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 294: Input port <arg fmt="%s" index="1">dina[7]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 300: Input port <arg fmt="%s" index="1">dina[7]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\up_down_counter.v" Line 47: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\up_down_counter.v" Line 52: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 578: Input port <arg fmt="%s" index="1">RESET_BUTT</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 586: Input port <arg fmt="%s" index="1">CLR_DATA</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf" Line 609: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">CLR_DATA</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_207</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_241</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf</arg>&quot; line <arg fmt="%s" index="2">540</arg>: Output port &lt;<arg fmt="%s" index="3">vga_h_sync</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_44</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf</arg>&quot; line <arg fmt="%s" index="2">540</arg>: Output port &lt;<arg fmt="%s" index="3">vga_v_sync</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_44</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf</arg>&quot; line <arg fmt="%s" index="2">578</arg>: Output port &lt;<arg fmt="%s" index="3">RESET_TIME</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_178</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\VGADemo.v</arg>&quot; line <arg fmt="%s" index="2">30</arg>: Output port &lt;<arg fmt="%s" index="3">CounterX</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">hvsync</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\VGADemo.v</arg>&quot; line <arg fmt="%s" index="2">30</arg>: Output port &lt;<arg fmt="%s" index="3">CounterY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">hvsync</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf</arg>&quot; line <arg fmt="%s" index="2">328</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf</arg>&quot; line <arg fmt="%s" index="2">328</arg>: Output port &lt;<arg fmt="%s" index="3">Q0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf</arg>&quot; line <arg fmt="%s" index="2">328</arg>: Output port &lt;<arg fmt="%s" index="3">Q1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf</arg>&quot; line <arg fmt="%s" index="2">328</arg>: Output port &lt;<arg fmt="%s" index="3">Q2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Tree\Desktop\Digital Lab\VGA_Graphic_Card\TopLevel.vf</arg>&quot; line <arg fmt="%s" index="2">328</arg>: Output port &lt;<arg fmt="%s" index="3">Q3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D6</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_0</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D7</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_0</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D6</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_1</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D7</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_1</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D6</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_2</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D7</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_2</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D6</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_3</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D7</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_3</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D6</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_4</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D7</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_4</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D6</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_5</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D7</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_5</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D6</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_6</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D7</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_6</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D6</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_7</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">D7</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">XLXI_13_7</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pixel_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_46</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pixel_1&gt; &lt;pixel_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pixel_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGADemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pixel_1&gt; &lt;pixel_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_44/vga_VS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLevel</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_44/vga_HS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLevel</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

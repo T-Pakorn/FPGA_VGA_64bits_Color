@@ -1,0 +1,63 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : TWO_DIV.vf
+// /___/   /\     Timestamp : 12/15/2020 13:59:03
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/ipcore_dir" -intstyle ise -family spartan6 -verilog "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TWO_DIV.vf" -w "C:/Users/Tree/Desktop/Digital Lab/VGA_Graphic_Card/TWO_DIV.sch"
+//Design Name: TWO_DIV
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FTC_HXILINX_TWO_DIV(Q, C, CLR, T);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              T;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+  
+   
+ 
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else if(T)
+          Q <= !Q;
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module TWO_DIV(CLK_INPUT, 
+               CLR_DATA, 
+               CLK_OUT);
+
+    input CLK_INPUT;
+    input CLR_DATA;
+   output CLK_OUT;
+   
+   wire XLXN_2;
+   
+   (* HU_SET = "XLXI_1_14" *) 
+   FTC_HXILINX_TWO_DIV  XLXI_1 (.C(CLK_INPUT), 
+                               .CLR(CLR_DATA), 
+                               .T(XLXN_2), 
+                               .Q(CLK_OUT));
+   VCC  XLXI_2 (.P(XLXN_2));
+endmodule
